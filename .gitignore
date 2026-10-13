@@ -1,0 +1,48 @@
+# Python virtual environments and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PySpark and Hadoop runtime artifacts
+metastore_db/
+derby.log
+spark-warehouse/
+.spark-staging/
+checkpoint/
+*.crc
+
+# Model binaries, archives, and generated extraction directories
+models/sentiment_tfidf_logistic_pipeline/
+models/_temp_extract/
+sentiment_tfidf_logistic_pipeline/
+*.zip
+*.parquet
+train_data.csv
+
+# Local environment and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Logs and tool caches
+*.log
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db

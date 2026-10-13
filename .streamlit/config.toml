@@ -1,0 +1,92 @@
+# SentimentScope theme
+# Dual light/dark appearance with Inter + JetBrains Mono, an indigo accent,
+# and a vivid but controlled chart palette.
+
+[theme]
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "6px"
+buttonRadius = "6px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+baseFontSize = 14
+baseFontWeight = 400
+codeFontSize = "13px"
+headingFontSizes = ["30px", "24px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [700, 600, 600, 600, 500, 500]
+metricValueFontSize = "2rem"
+metricValueFontWeight = 700
+linkUnderline = false
+paddingTop = "1rem"
+paddingBottom = "3rem"
+
+[theme.light]
+primaryColor = "#4F46E5"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F7FF"
+codeBackgroundColor = "#EEF2FF"
+textColor = "#111827"
+linkColor = "#4F46E5"
+borderColor = "#E0E7FF"
+codeTextColor = "#3730A3"
+greenColor = "#059669"
+redColor = "#DC2626"
+yellowColor = "#CA8A04"
+orangeColor = "#EA580C"
+blueColor = "#2563EB"
+violetColor = "#7C3AED"
+grayColor = "#64748B"
+chartCategoricalColors = ["#4F46E5", "#0EA5E9", "#10B981", "#F59E0B", "#EF4444", "#8B5CF6", "#14B8A6", "#F97316"]
+chartSequentialColors = ["#EEF2FF", "#E0E7FF", "#C7D2FE", "#A5B4FC", "#818CF8", "#6366F1", "#4F46E5", "#4338CA", "#3730A3", "#312E81"]
+dataframeBorderColor = "#E0E7FF"
+dataframeHeaderBackgroundColor = "#EEF2FF"
+dataframeHeaderTextColor = "#3730A3"
+
+[theme.dark]
+primaryColor = "#6366F1"
+backgroundColor = "#0B1120"
+secondaryBackgroundColor = "#1E293B"
+codeBackgroundColor = "#1E293B"
+textColor = "#F1F5F9"
+linkColor = "#A5B4FC"
+borderColor = "#334155"
+codeTextColor = "#C7D2FE"
+greenColor = "#34D399"
+redColor = "#F87171"
+yellowColor = "#FBBF24"
+orangeColor = "#FB923C"
+blueColor = "#60A5FA"
+violetColor = "#A78BFA"
+grayColor = "#94A3B8"
+chartCategoricalColors = ["#818CF8", "#38BDF8", "#34D399", "#FBBF24", "#F87171", "#A78BFA", "#2DD4BF", "#FB923C"]
+chartSequentialColors = ["#312E81", "#3730A3", "#4338CA", "#4F46E5", "#6366F1", "#818CF8", "#A5B4FC", "#C7D2FE", "#E0E7FF", "#EEF2FF"]
+dataframeBorderColor = "#334155"
+dataframeHeaderBackgroundColor = "#312E81"
+dataframeHeaderTextColor = "#E0E7FF"
+
+[theme.sidebar]
+paddingTop = "1rem"
+paddingBottom = "1.5rem"
+
+[theme.light.sidebar]
+backgroundColor = "#F5F7FF"
+secondaryBackgroundColor = "#EEF2FF"
+codeBackgroundColor = "#E0E7FF"
+textColor = "#111827"
+borderColor = "#E0E7FF"
+primaryColor = "#4F46E5"
+linkColor = "#4F46E5"
+dataframeHeaderBackgroundColor = "#EEF2FF"
+dataframeBorderColor = "#E0E7FF"
+
+[theme.dark.sidebar]
+backgroundColor = "#020617"
+secondaryBackgroundColor = "#1E293B"
+codeBackgroundColor = "#1E293B"
+textColor = "#F1F5F9"
+borderColor = "#334155"
+primaryColor = "#6366F1"
+linkColor = "#A5B4FC"
+dataframeHeaderBackgroundColor = "#312E81"
+dataframeBorderColor = "#334155"
