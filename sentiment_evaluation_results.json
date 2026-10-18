@@ -1,0 +1,48 @@
+{
+  "model_name": "TF-IDF + Logistic Regression",
+  "framework": "PySpark MLlib",
+  "dataset": "train_data.csv",
+  "split": {
+    "train_ratio": 0.7,
+    "test_ratio": 0.3,
+    "random_seed": 42,
+    "train_samples": 1066861,
+    "test_samples": 456992,
+    "total_clean_samples": 1523853
+  },
+  "hyperparameters": {
+    "maxIter": 10,
+    "regParam": 0.01,
+    "vocabSize": 50000,
+    "minDF": 2.0
+  },
+  "metrics": {
+    "accuracy": 0.7777,
+    "roc_auc": 0.8489,
+    "positive": {
+      "label": 1,
+      "name": "Positive",
+      "precision": 0.7669,
+      "recall": 0.7935,
+      "f1_score": 0.7800
+    },
+    "negative": {
+      "label": 0,
+      "name": "Negative",
+      "precision": 0.7891,
+      "recall": 0.7621,
+      "f1_score": 0.7754
+    }
+  },
+  "confusion_matrix": {
+    "labels": ["Negative (0)", "Positive (1)"],
+    "matrix": [
+      [175353, 54726],
+      [46863, 180050]
+    ],
+    "true_negative": 175353,
+    "false_positive": 54726,
+    "false_negative": 46863,
+    "true_positive": 180050
+  }
+}
